@@ -9,7 +9,7 @@
 
 # Importamos la clase que creara nuestro objeto que a su vez interactuara
 # con el dispositivo.
-from Librerias.Adafruit_CharLCDPlate import Adafruit_CharLCDPlate
+from Modulos.Adafruit_CharLCDPlate import Adafruit_CharLCDPlate
 
 # Inicializamos un objeto llamado 'lcd' mediante la Clase importada.
 # La clase autodetecta el Bus I2C pero en caso de no hacerlo poner

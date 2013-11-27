@@ -12,7 +12,7 @@
 # Importamos el comando "sleep" para pausar la ejecucion. Tambien 
 # la Clase para crear un objeto que no sayude a interactur con el LCD.
 from time import sleep
-from Librerias.Adafruit_CharLCDPlate import Adafruit_CharLCDPlate
+from Modulos.Adafruit_CharLCDPlate import Adafruit_CharLCDPlate
 
 # Inicializamos un objeto llamado 'lcd' mediante la Clase importada.
 # La clase autodetecta el Bus I2C pero en caso de no hacerlo poner
